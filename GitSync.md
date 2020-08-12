@@ -2,6 +2,13 @@
 - 进入项目目录
 ```
 git init
-git add readme.txt
-git commmit -m "add a readme file"
+git add filename 或 git add .
+git commmit -m "add xxx file" 
+git status
 ```
+- 创建仓库并关联
+```
+git remote add origin git@github.com:gloriaaaa/workdiary.git
+git push -u origin master 
+```
+- 下次`add` `commit`　然后　`git push origin master`
